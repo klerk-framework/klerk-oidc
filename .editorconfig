@@ -1,0 +1,13 @@
+root = true
+
+[*.{kt,kts}]
+indent_size = 4
+max_line_length = 120
+insert_final_newline = true
+ktlint_code_style = intellij_idea
+ktlint_standard_filename = disabled
+ktlint_standard_function-naming = disabled
+ktlint_standard_backing-property-naming = disabled
+ktlint_standard_trailing-comma-on-call-site = enabled
+ktlint_standard_trailing-comma-on-declaration-site = enabled
+ij_kotlin_packages_to_use_import_on_demand = io.ktor.server.application.*,io.ktor.server.routing.*,io.ktor.http.*,io.ktor.server.html.*,io.ktor.server.response.*,io.ktor.server.testing.*,io.ktor.client.request.*,io.ktor.client.statement.*,io.ktor.server.request.*,io.ktor.server.netty.*,io.ktor.server.engine.*,io.ktor.server.http.content.*,io.ktor.client.request.forms.*,io.ktor.utils.io.jvm.javaio.*,io.ktor.util.*,io.ktor.client.plugins.cookies.*,io.ktor.server.plugins.compression.*,io.ktor.http.content.*,kotlinx.html.**
